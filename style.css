@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+span{
+    @apply  absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] w-28 h-28 bg-cover  pointer-events-none animate-[heartAnime_6s_linear] 
+}
